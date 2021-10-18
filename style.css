@@ -64,3 +64,22 @@ button{
     color: #E5E7EB;
 }
 
+/* Information section styles */
+
+.information-section{
+    text-align: center;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
