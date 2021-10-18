@@ -1,0 +1,26 @@
+/* navigation styles */
+.nav-bar{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* End of navigation styles*/
