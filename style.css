@@ -1,3 +1,5 @@
+
+
 /* navigation styles */
 .nav-bar{
     flex: 1;
@@ -32,6 +34,14 @@ ul li a{
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
+    gap: 24px;
+    margin: 0;
+    padding: 75px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .hero-left h1{
@@ -40,12 +50,17 @@ ul li a{
     color: #f9faf8;
 }
 
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .hero-left p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-right{
-    height: 100px;
-    width: 350px;
-}
