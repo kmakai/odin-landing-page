@@ -2,7 +2,7 @@
 .nav-bar{
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
 }
@@ -24,3 +24,28 @@ ul li a{
 
 
 /* End of navigation styles*/
+
+/* hero section styles */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.hero-left h1{
+    font-size: 48px; 
+    font-weight:  extra-bold;
+    color: #f9faf8;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-right{
+    height: 100px;
+    width: 350px;
+}
