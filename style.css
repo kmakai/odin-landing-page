@@ -4,9 +4,10 @@
 .nav-bar{
     flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 0 125px;
 }
 
 .nav-links ul{
@@ -31,22 +32,24 @@ ul li a{
 .hero-section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1f2937;
-    gap: 24px;
+    gap: 48px;
     margin: 0;
-    padding: 75px;
+    padding: 75px 125px;
 }
 .hero-left{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 300px;
 }
 
 .hero-left h1{
     font-size: 48px; 
     font-weight:  extra-bold;
     color: #f9faf8;
+    margin-bottom: 0%;
 }
 
 button{
@@ -141,7 +144,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 25px;
+    padding: 18px;
     border-radius: 10px;
 }
 .call-left{
@@ -150,4 +153,17 @@ button{
 
 .btn{
     border: 2px solid white;
+}
+
+
+
+/* Footer styles*/
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 10px;
 }
