@@ -12,7 +12,7 @@
 .nav-links ul{
     display: flex;
     list-style: none;
-    gap: 18px;
+    gap: 25px;
 }
 ul li a{
     font-size: 18px;
@@ -24,6 +24,7 @@ ul li a{
     color: #f9faf8;
 }
 
+/* navigation styles */
 
 /* hero section styles */
 
@@ -62,11 +63,13 @@ button{
     color: #E5E7EB;
 }
 
+/* hero section styles */
+
 /* Information section styles */
 
 .information-section{
     text-align: center;
-    padding: 45px;
+    padding: 60px 45px;
 }
 
 .info-cards{
@@ -91,6 +94,8 @@ button{
     width: 100%;
 }
 
+/* Information section styles */
+
 /* Quote section styles */
 
 .quote-section{
@@ -98,7 +103,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px;
+    padding: 48px 25%;
 }
 
 .quote{
@@ -109,6 +114,10 @@ button{
     font-family: italic;
     font-size: 36px;
     color: #1f2937;
+}
+
+.quote p{
+    margin-bottom: 0;
 }
 
 .quote h3{
