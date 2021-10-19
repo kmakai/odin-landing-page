@@ -123,3 +123,31 @@ button{
 .quote h3{
     align-self: flex-end;
 } 
+
+/* Quote section styles */
+
+/* Call section styles */
+
+.call-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.call-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.call-left{
+    color: white;
+}
+
+.btn{
+    border: 2px solid white;
+}
